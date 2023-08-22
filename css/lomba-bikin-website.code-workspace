@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../personal-web"
+		},
+		{
+			"path": "../../../g-30s-pki"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lomba-bikin-website"
+	}
+}

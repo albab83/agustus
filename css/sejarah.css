@@ -1,0 +1,228 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+  html body {
+    margin: 0;
+    max-width: 100%;
+    height: auto ;
+    overflow-x: hidden;
+    font-family:'Poppins';
+    background-color: rgba(138, 214, 240, 1)
+}
+div {
+
+}
+/* grid,background */
+.grid {
+    display: grid;
+    grid-template-areas:
+    'header header header header'
+    'isi isi isi daftar-isi' 
+    'footer footer footer footer';
+    
+
+
+}
+
+/* bagian header */
+.header {
+    grid-area: header;
+    width: 1483px;
+    height: 110px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #045582 33.43%, #4294C2 74.37%);
+    position: fixed;
+    display: flex;
+}
+.logo {
+    margin-top: 13px;
+    margin-left: 136px;
+}
+.text-logo {
+    margin-top: 33px;
+    margin-left: 24px;
+    color: #ffff;
+}
+.historical {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.information {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 24px;
+}
+.nav {
+    margin-left: 684px;
+    margin-top: 40px;
+    color: #FCFCFC;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    word-spacing: 20px;
+}
+.nav a {
+    color: #FCFCFC;
+    text-decoration: none;
+}
+
+
+
+/* bagian content */
+.isi {
+    grid-area: isi;
+    position: fixed;
+    border-radius: 10px;
+    background: #FCFCFC;
+   
+    width: 920px;
+    height: 491px;
+    flex-shrink: 0;
+    margin-top: 162px;
+    margin-left: 60px;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.25);
+    overflow: scroll;
+
+}
+
+/* halaman */
+
+.halaman h1 {
+    text-align: center;
+    margin-top: 55px;
+    
+}
+.halaman img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.halaman p {
+    margin-left: 62px;
+    margin-right: 62px;
+}
+
+/* halaman 1 */
+
+.halaman-1 h1 {
+    text-align: center;
+    margin-top: 55px;
+    
+}
+.halaman-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.halaman-1 p {
+    margin-left: 62px;
+    margin-right: 62px;
+}
+
+
+
+
+
+
+/* daftar isi */
+.daftar-isi {
+    grid-area: daftar-isi;
+    border-radius: 10px;
+    background: #FCFCFC;
+    width: 379px;
+    height: 490px;
+    flex-shrink: 0;
+    margin-top: 43px;
+    margin-right: 60px;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    bottom: 67px;
+    right: 0px;
+
+}
+.daftar-isi h3 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-areas: 
+    'daftar01 daftar02'
+    'daftar03 daftar04' ;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.text-sejarah a {
+    position: relative;
+    top: -12px;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+}
+.text-tujuan a {
+    position: relative;
+    top: -6px;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+.text-kronologi a {
+    position: relative;
+    top: 0px;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+.text-latar-belakang a {
+    position: relative;
+    top: 0px;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+/* footer */
+.footer {
+    grid-area: footer;
+    position: relative;
+    bottom: -667px;
+    left: 0px;
+    z-index: 11;
+    width: auto;
+   
+}
+.sosmed {
+    text-align: center;
+    
+}
+.sosmed a {
+    color: black;
+}
+
+
+
+
+
+/* bagian icon sosmed*/
+
+
+
+
+
