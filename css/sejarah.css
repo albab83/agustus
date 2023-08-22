@@ -4,8 +4,8 @@
 
   html body {
     margin: 0;
-    max-width: 100%;
-    height: auto ;
+    max-width: fit-content;
+    height: fit-content ;
     overflow-x: hidden;
     font-family:'Poppins';
     background-color: rgba(138, 214, 240, 1)
