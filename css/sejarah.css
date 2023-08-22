@@ -5,7 +5,7 @@
   html, body {
     margin: 0;
     max-width: 100%;
-    height: auto ;
+    height: 100% ;
     overflow-x: hidden;
     font-family:'Poppins';
     background-color: rgba(138, 214, 240, 1)
