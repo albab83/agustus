@@ -1,7 +1,9 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-
+*{
+    scroll-behavior: smooth;
+}
   html, body {
     margin: 0;
     max-width: 100%;
@@ -95,7 +97,7 @@ div {
 
 .halaman h1 {
     text-align: center;
-    margin-top: 55px;
+    padding-top: 55px;
     
 }
 .halaman img {
@@ -112,7 +114,7 @@ div {
 
 .halaman-1 h1 {
     text-align: center;
-    margin-top: 55px;
+    padding-top: 55px;
     
 }
 .halaman-1 img {
@@ -121,6 +123,54 @@ div {
     margin-right: auto;
 }
 .halaman-1 p {
+    margin-left: 62px;
+    margin-right: 62px;
+}
+
+/* halaman 2 */
+.halaman-2 h1 {
+    text-align: center;
+    padding-top: 55px;
+    
+}
+.halaman-2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.halaman-2 p {
+    margin-left: 62px;
+    margin-right: 62px;
+}
+
+
+/* halaman 3 */
+.halaman-3 h1 {
+    text-align: center;
+    padding-top: 55px;
+    
+}
+.halaman-3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.halaman-3 p {
+    margin-left: 62px;
+    margin-right: 62px;
+}
+/* halaman 4 */
+.halaman-4 h1 {
+    text-align: center;
+    padding-top: 55px;
+    
+}
+.halaman-4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.halaman-4 p {
     margin-left: 62px;
     margin-right: 62px;
 }
@@ -209,6 +259,8 @@ div {
 }
 .sosmed {
     text-align: center;
+    position: fixed;
+    
     
 }
 .sosmed a {
