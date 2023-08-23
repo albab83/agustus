@@ -21,8 +21,6 @@ div {
     grid-template-areas:
     'header header header header'
     'isi isi isi daftar-isi';
-    
-
 
 }
 
@@ -82,6 +80,11 @@ div {
 }
 
 .about_active:hover{
+    color:  rgb(0, 229, 255);
+    transition: 0.5s;
+}
+
+.contact_active:hover{
     color:  rgb(0, 229, 255);
     transition: 0.5s;
 }

@@ -62,7 +62,7 @@
     color: #FFF;
     word-spacing: 50px;
     position: fixed;
-    left: 1040px;
+    left: 885px;
     top: 43px;
 }
 
@@ -119,6 +119,11 @@ body{
 }
 
 #about:hover{
+    color:  rgb(0, 229, 255);
+    transition: 0.5s;
+}
+
+#contact:hover{
     color:  rgb(0, 229, 255);
     transition: 0.5s;
 }

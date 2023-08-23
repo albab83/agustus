@@ -62,7 +62,7 @@
     color: #FFF;
     word-spacing: 50px;
     position: fixed;
-    left: 1040px;
+    left: 885px;
     top: 43px;
 }
 
@@ -93,13 +93,13 @@ body{
     width: 200px;
     position: fixed;
     left: 300px;
-    top: 200px;
+    top: 250px;
 }
 
 .text_about{
     position: fixed;
     left: 600px;
-    bottom: 200px;
+    bottom: 150px;
     width: 500px;
     text-decoration: none;
 
@@ -139,4 +139,9 @@ p{
 
 #about{
     color:  rgb(0, 229, 255);
+}
+
+#contact:hover{
+    color:  rgb(0, 229, 255);
+    transition: 0.5s;
 }
