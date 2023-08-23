@@ -1,0 +1,78 @@
+.logo_nav {
+    display: flex;
+    background: linear-gradient(90deg, #045582 33.43%, #4294C2 74.37%);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+#img_logo {
+    position: fixed;
+    left: 130px;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+   
+}
+
+.text_logo {
+    position: fixed;
+    left: -80px;
+    bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+  
+    
+}
+
+#text_historical {
+    position: fixed;
+    top: 5px;
+    left: 222px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#text_information {
+    position: fixed;
+    top: 30px;
+    left: 260px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav {
+    color: #FFF;
+    word-spacing: 50px;
+    position: fixed;
+    left: 950px;
+    top: 28px;
+}
+
+.nav a {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+body{
+    background-color: rgba(113, 151, 214, 0.40);;
+}
+
+#container{
+    background-color: #FFF;
+    width: 1300px;
+}
