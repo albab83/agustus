@@ -61,23 +61,29 @@ div {
 }
 .nav {
     margin-left: 684px;
-    margin-top: 40px;
-    color: #FCFCFC;
+    margin-top: 44px;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    word-spacing: 20px;
+    word-spacing: 50px;
 }
 .nav a {
     color: #FCFCFC;
     text-decoration: none;
 }
 
-.nav a:hover {
-    color: rgb(255, 0, 195);
+#home_active{
+    color:  rgb(0, 229, 255);
 }
 
+.profile_active:hover{
+    color:  rgb(0, 229, 255);
+}
+
+.about_active:hover{
+    color:  rgb(0, 229, 255);
+}
 
 
 /* bagian content */
