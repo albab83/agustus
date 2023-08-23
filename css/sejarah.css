@@ -74,6 +74,10 @@ div {
     text-decoration: none;
 }
 
+.nav a:hover {
+    color: rgb(255, 0, 195);
+}
+
 
 
 /* bagian content */
@@ -100,11 +104,13 @@ div {
     padding-top: 55px;
     
 }
+
 .halaman img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 .halaman p {
     margin-left: 62px;
     margin-right: 62px;
@@ -117,27 +123,32 @@ div {
     padding-top: 55px;
     
 }
+
 .halaman-1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 .halaman-1 p {
     margin-left: 62px;
     margin-right: 62px;
 }
 
 /* halaman 2 */
+
 .halaman-2 h1 {
     text-align: center;
     padding-top: 55px;
     
 }
+
 .halaman-2 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 .halaman-2 p {
     margin-left: 62px;
     margin-right: 62px;
@@ -145,6 +156,7 @@ div {
 
 
 /* halaman 3 */
+
 .halaman-3 h1 {
     text-align: center;
     padding-top: 55px;
@@ -160,6 +172,7 @@ div {
     margin-right: 62px;
 }
 /* halaman 4 */
+
 .halaman-4 h1 {
     text-align: center;
     padding-top: 55px;
@@ -192,15 +205,16 @@ div {
     margin-left: 1016px;
     box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.25);
     position: fixed;
-    
-
 }
+
 .daftar-isi h3 {
     margin-top: 30px;
     text-align: center;
     font-weight: 500;
 
 }
+
+
 
 .grid-2 {
     display: grid;
@@ -209,6 +223,7 @@ div {
     'daftar03 daftar04' ;
     text-align: center;
     justify-content: space-evenly;
+    margin-top: 31px;
 }
 
 .text-sejarah a {
@@ -219,6 +234,11 @@ div {
     font-weight: 400;
     font-size: 12px;
 }
+
+.text-sejarah a:hover {
+    color: #045582; 
+ }
+
 .text-tujuan a {
     position: relative;
     top: -6px;
@@ -228,6 +248,11 @@ div {
     font-size: 12px;
 
 }
+
+.text-tujuan a:hover {
+    color: #045582;
+}
+
 .text-kronologi a {
     position: relative;
     top: 0px;
@@ -235,8 +260,13 @@ div {
     text-decoration: none;
     font-weight: 400;
     font-size: 12px;
-
 }
+
+.text-kronologi a:hover {
+    color: #045582;
+}
+
+
 .text-latar-belakang a {
     position: relative;
     top: 0px;
@@ -244,7 +274,10 @@ div {
     text-decoration: none;
     font-weight: 400;
     font-size: 12px;
+}
 
+.text-latar-belakang a:hover {
+    color: #045582;
 }
 
 /* footer */
