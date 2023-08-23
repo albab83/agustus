@@ -79,10 +79,12 @@ div {
 
 .profile_active:hover{
     color:  rgb(0, 229, 255);
+    transition: 0.5s;
 }
 
 .about_active:hover{
     color:  rgb(0, 229, 255);
+    transition: 0.5s;
 }
 
 
