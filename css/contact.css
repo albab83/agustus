@@ -88,11 +88,11 @@ body{
     margin-top: 180px;
 }
 
-#container img{
+.foto img{
     width: 500px;
-    position: fixed;
-    bottom: 20px;
-    left: 100px;
+    position: relative;
+    bottom: 430px;
+    left: 70px;
 }
 
 .contact_isi{
